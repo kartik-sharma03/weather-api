@@ -3,6 +3,7 @@ import streamlit as st
 import requests
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import VotingClassifier
 import pickle
 from datetime import datetime, timedelta
